@@ -1,0 +1,55 @@
+body{
+    background: #F7D060;
+}
+
+header{
+    padding: 10px;
+    color: #FF6D60;
+}
+
+.resultado{
+    text-align: center;
+    font-size: 70px;
+    color: #ffff;
+    background-color: #98D8AA;
+}
+
+.opciones{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.opcion{
+    width: 80px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+
+.opcion:hover{
+    background-color:#FF6D60;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.ganador{
+    color:Purple;
+    font-size: 60px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.perdedor{
+    color: #FF6D60;
+    font-size: 60px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.empate{
+    color:blue;
+    font-size: 60px;
+    background-color: white;
+    border-radius: 15px;
+}
